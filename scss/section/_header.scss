@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 43px 0 34px 0;
+  .home__page {
+    display: flex;
+    list-style: none;
+    gap: 33px;
+
+    .page__item {
+      font-family: "Barlow";
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: 0.923077px;
+      text-transform: uppercase;
+
+      text-decoration: none;
+
+      & a {
+        text-decoration: none;
+        color: #83888f;
+      }
+      & a:hover {
+        color: #333d4b;
+        cursor: pointer;
+      }
+    }
+  }
+}

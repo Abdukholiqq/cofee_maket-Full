@@ -1,0 +1,30 @@
+.btn {
+  width: 160px;
+  padding: 15px 30px;
+  margin-top: 56px;
+  font-family: "Fraunces";
+  font-size: 18px;
+  line-height: 25px;
+
+  background: #66d2cf;
+  border-radius: 6px;
+  border: none;
+
+  & a {
+    text-decoration: none;
+
+    color: #fefcf7;
+  }
+}
+
+.description {
+  width: 445px;
+  font-family: "Barlow";
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+

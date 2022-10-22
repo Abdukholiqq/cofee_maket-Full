@@ -1,0 +1,19 @@
+.hero{
+  width: 1280px;
+  height: 600px;
+  padding: 117px 85px;
+  background-image: url(../images/createimg.png);
+  background-repeat: no-repeat;
+  &__title {
+    width: 493px;
+  
+    margin-bottom: 32px;
+    font-family: "Fraunces";
+    font-size: 72px;
+    line-height: 72px;
+    color: #fefcf7;
+  }
+  p {
+    color: #fefcf7;
+  }
+}

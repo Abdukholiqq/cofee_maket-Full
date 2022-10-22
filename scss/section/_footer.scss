@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 135px;
+  padding: 20px;
+  gap: 360px;
+  background: #2c343e;
+  .head-foot{
+    width: 622px;
+  }
+  &__link {
+    display: flex;
+    gap: 24px;
+  }
+}

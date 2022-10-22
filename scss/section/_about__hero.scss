@@ -1,0 +1,21 @@
+.hero {
+  width: 1280px;
+  height: 450px;
+  padding: 70px 85px  ;
+   background-image: url(../images/About-us-img.png);
+  background-repeat: no-repeat;
+  &__title {
+    width: 445px;
+  
+    margin-bottom: 32px;
+    font-family: "Fraunces";
+    font-size: 72px;
+    line-height: 72px;
+    color: #fefcf7;
+  }
+  p {
+    color: #fefcf7;
+  }
+
+ 
+}

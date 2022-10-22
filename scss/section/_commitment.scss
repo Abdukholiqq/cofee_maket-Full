@@ -1,0 +1,17 @@
+.commitment {
+  display: flex;
+  padding: 0 85px 0 85px;
+  gap: 125px;
+  &__text{
+    padding: 90px 0;
+  }
+  &__title {
+    font-family: "Fraunces";
+    font-size: 40px;
+    line-height: 48px;
+    color: #333d4b;
+  }
+  p{
+    width: 520px;
+  }
+}

@@ -1,0 +1,21 @@
+.quality {
+  display: flex;
+  justify-content: center;
+  height: 474px;
+  margin-top: 256px;
+  gap: 125px;
+  background-color: #2c343e;
+  &__title {
+    margin-top: 88px;
+    font-family: "Fraunces";
+    font-size: 40px;
+    line-height: 48px;
+    color: #fefcf7;
+  }
+  p{
+    color: #FEFCF7;
+  }
+  &__img{
+margin-top: -88px;
+  }
+}
