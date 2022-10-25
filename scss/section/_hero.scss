@@ -1,12 +1,15 @@
 .hero {
-  width: 1280px;
+  max-width: 1280px;
+  width: 100%;
   height: 600px;
   padding: 117px 85px;
   background-image: url(../images/Bitmap.png);
+  background-position: center;
   background-repeat: no-repeat;
   &__title {
-    width: 493px;
-  
+    max-width: 493px;
+    width: 100%;
+
     margin-bottom: 32px;
     font-family: "Fraunces";
     font-size: 72px;
@@ -17,3 +20,65 @@
     color: #fefcf7;
   }
 }
+@media only screen and (max-width: 768px) {
+  .hero {
+    background-image: url(../../images/hero-bg-tablet.png);
+    background-position: center;
+  }
+  .hero__title {
+    max-width: 330px;
+    width: 100%;
+    font-size: 48px;
+    line-height: 48px;
+  }
+  .description {
+    max-width: 400px;
+    width: 100%;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .btn {
+    font-style: 15px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero {
+    max-width: 560px;
+    height: 100%;
+    padding: 100px 24px;
+    background-image: url(../../images/hero-bg-mobile.png);
+  }
+  .hero__title {
+    max-width: 330px;
+    width: 100%;
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .description {
+    max-width: 280px;
+    width: 100%;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .hero {
+    max-width: 375px;
+    height: 100%;
+    padding: 100px 24px;
+    background-image: url(../../images/hero-bg-mobile.png);
+  }
+  .hero__title {
+    max-width: 260px;
+    width: 100%;
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .description {
+    max-width: 250px;
+    width: 100%;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+

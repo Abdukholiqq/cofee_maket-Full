@@ -1,5 +1,6 @@
 .btn {
-  width: 160px;
+  max-width: 217px;
+  width: 100%;
   padding: 15px 30px;
   margin-top: 56px;
   font-family: "Fraunces";
@@ -18,7 +19,8 @@
 }
 
 .description {
-  width: 445px;
+  max-width: 445px;
+  width: 100%;
   font-family: "Barlow";
   font-size: 16px;
   line-height: 26px;
