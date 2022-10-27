@@ -1,12 +1,18 @@
 .hero {
-  width: 1280px;
+  max-width: 1320px;
+  width: 100%;
   height: 450px;
-  padding: 70px 85px  ;
-   background-image: url(../images/About-us-img.png);
+ 
+  background-image: url(../../images/About-us-img.png);
+  background-position: center;
+   
   background-repeat: no-repeat;
+  background-size: cover;
+ 
   &__title {
-    width: 445px;
-  
+    padding: 117px 58px 0 58px;
+    max-width: 358px;
+    width: 100%;
     margin-bottom: 32px;
     font-family: "Fraunces";
     font-size: 72px;
@@ -14,8 +20,43 @@
     color: #fefcf7;
   }
   p {
+    padding-left: 58px;
     color: #fefcf7;
   }
+}
 
- 
+
+
+@media only screen and (max-width: 600px) {
+  .hero {
+     
+    &__title {
+      font-size: 32px;
+      line-height: 40px;
+      padding-left: 15px;
+    }
+    p {
+      max-width: 300px;
+        padding-left: 15px;
+      font-size: 15px;
+      line-height: 25px;
+    }
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .hero {
+    background-image: url(../../images/hero-about-bg.png);
+    &__title {
+      font-size: 32px;
+      line-height: 40px;
+      padding-left: 15px;
+    }
+    p {
+      max-width: 250px;
+        padding-left: 15px;
+      font-size: 15px;
+      line-height: 25px;
+    }
+  }
 }
