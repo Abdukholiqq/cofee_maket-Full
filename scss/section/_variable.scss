@@ -1,4 +1,10 @@
-.btn {
+ *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+ 
+ .btn {
   max-width: 217px;
   width: 100%;
   padding: 15px 30px;
@@ -21,12 +27,10 @@
 .description {
   max-width: 445px;
   width: 100%;
-  font-family: "Barlow";
+  font-family: "Barlow-Regular";
   font-size: 16px;
   line-height: 25px;
   color: #333d4b;
   mix-blend-mode: normal;
   opacity: 0.8;
 }
-
-
